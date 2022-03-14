@@ -12,7 +12,7 @@ public class Main {
         printNumberFactors.printNumberFactors();
 
         System.out.printf("\n");
-        
+
         CheckPrintNumberFactors checkPrintNumberFactors = new CheckPrintNumberFactors(number);
         checkPrintNumberFactors.printNumberFactor();
 
