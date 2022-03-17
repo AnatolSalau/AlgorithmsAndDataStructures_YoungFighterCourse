@@ -5,11 +5,13 @@ public class Main {
     eratosphenSieve.printSieveBool();*/
 
     Check check = new Check(30);
-    check.printSieve();
+    check.setSieveBool();
+    check.printSieveBool();
 
-    EratosphenSieve eratosphenSieve = new EratosphenSieve(30);
-    eratosphenSieve.insertSieveBool();
-    eratosphenSieve.printSieveBool();
-    eratosphenSieve.printSieveResult();
+    Task task = new Task();
+    task.findIn();
+    task.replace();
+    task.print();
+
     }
 }
