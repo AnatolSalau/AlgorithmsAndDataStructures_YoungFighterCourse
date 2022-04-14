@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/10_FactoringNumber/10_FactoringNumber.iml" filepath="$PROJECT_DIR$/10_FactoringNumber/10_FactoringNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_NumberStreamFiltering/11_NumberStreamFiltering.iml" filepath="$PROJECT_DIR$/11_NumberStreamFiltering/11_NumberStreamFiltering.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14_InductiveFunctions/14_InductiveFunctions.iml" filepath="$PROJECT_DIR$/14_InductiveFunctions/14_InductiveFunctions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15_ArrayFilling/15_ArrayFilling.iml" filepath="$PROJECT_DIR$/15_ArrayFilling/15_ArrayFilling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16_EratosphenSieve/16_EratosphenSieve.iml" filepath="$PROJECT_DIR$/16_EratosphenSieve/16_EratosphenSieve.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17_Reverse/17_Reverse.iml" filepath="$PROJECT_DIR$/17_Reverse/17_Reverse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21_Task25/21_Task25.iml" filepath="$PROJECT_DIR$/21_Task25/21_Task25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/22_Task27/22_Task27.iml" filepath="$PROJECT_DIR$/22_Task27/22_Task27.iml" />
+      <module fileurl="file://$PROJECT_DIR$/24_InsertSort/24_InsertSort.iml" filepath="$PROJECT_DIR$/24_InsertSort/24_InsertSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/25_CounterSort/25_CounterSort.iml" filepath="$PROJECT_DIR$/25_CounterSort/25_CounterSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/28_ReсursionAlgoritms/28_ReсursionAlgoritms.iml" filepath="$PROJECT_DIR$/28_ReсursionAlgoritms/28_ReсursionAlgoritms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/29_HanoyTower/29_HanoyTower.iml" filepath="$PROJECT_DIR$/29_HanoyTower/29_HanoyTower.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AlgorithmsAndDataStructures_YoungFighterCourse.iml" filepath="$PROJECT_DIR$/.idea/AlgorithmsAndDataStructures_YoungFighterCourse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayFilling/ArrayFilling.iml" filepath="$PROJECT_DIR$/ArrayFilling/ArrayFilling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TrajectoryOfGrasshopper/TrajectoryOfGrasshopper.iml" filepath="$PROJECT_DIR$/TrajectoryOfGrasshopper/TrajectoryOfGrasshopper.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,47 @@
+Бинарный поиск левой и правой границы когда несколько повторяющихся значений в упорядоченном массиве.
+public int leftBoundaryArray(int number,int[] myArray) {
+    int left = -1;
+    int right = myArray.length;
+
+    while (right - left >1) {
+        int midle = (left+right)/2;
+        if (myArray[midle] < number) {left = midle;}
+        else {right = midle;}
+    }
+    return left;
+}
+
+public int rightBoundaryArray(int number,int[] myArray) {
+    int left = -1;
+    int right = myArray.length;
+
+    while (right - left >1) {
+        int midle = (left+right)/2;
+        if (myArray[midle] <= number) {left = midle;}
+        else {right = midle;}
+    }
+Бинарный поиск левой и правой границы когда искомое значение только одно в упорядоченном массиве.
+
+    public int binarySearch(int[] array, int element) {
+        int startIndex = 0;
+        int finishIndex = array.length;
+        int resultIndex = -1;
+
+        while (startIndex <=finishIndex) {
+            int middleIndex = (startIndex + finishIndex) / 2;
+            // Если средний элемент искомый - возвращаем его индекс
+            if (element == array[middleIndex]) {
+                resultIndex = middleIndex;
+                break;
+            }
+            //если средний элемент меньше искомого убираем первую часть из рассмотрения
+            else if (element > array[middleIndex]) {
+                startIndex = middleIndex +1;
+            }
+            //если средний элемент больше искомого убираем последнюю часть из рассмотрения
+            else if (element < array[middleIndex]) {
+                finishIndex = middleIndex -1;
+            }
+        }
+        return resultIndex;
+    }
